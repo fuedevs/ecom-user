@@ -1,5 +1,5 @@
-import { ProductListSchema } from '../../src/features/products/schemas'
-import { getProducts } from '../../src/features/products/product.api'
+import { ProductListSchema } from '../src/features/products/schemas'
+import { getProducts } from '../src/features/products/product.api'
 import { getBanners, getFeaturedProducts } from '../src/features/banner/banner.api'
 import ProductCard from '../src/components/ProductCard'
 

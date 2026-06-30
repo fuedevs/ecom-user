@@ -1,4 +1,4 @@
-import { ProductListSchema } from '../../src/features/products/schemas'
+import { ProductListSchema } from '../products/schemas'
 import fetchJson from '../../lib/api/axiosClient'
 import { z } from 'zod'
 
